@@ -1,0 +1,143 @@
+
+body{
+
+    font-family: cursive;
+    text-align: center;
+    background: rgb(115,228,212);
+    background: radial-gradient(circle, rgba(115,228,212,1) 0%, rgba(93,117,156,1) 69%, rgba(49,71,98,1) 100%);
+
+}
+#mainbox{
+
+    margin:100px auto;
+    border: 1px solid black;
+    min-height: 200px;
+    width:400px;
+    max-width:90%;
+    border-radius:20px;
+    background-color: white;
+    text-align:center;
+    padding-bottom: 20px;
+}
+#searchbox{
+
+    height:1em;
+    border-radius: 30px;
+    margin: 20px ;
+    background:rgba(128, 128, 128, 0.053);
+    padding:20px;
+    padding-right:0px;
+    display:flex;
+    align-items: center;
+ 
+ 
+}
+#searchbox input{
+
+    font-family: inherit;
+    width:75%;
+    background: transparent;
+    flex:1;
+    flex:none;
+    border :none;
+    outline: none;
+}
+#searchbox button{
+
+    border: 0.5px solid black;
+    justify-self: end;
+    background: rgb(222, 178, 32);
+    width:100px;
+    height:3.7em;
+    border-radius: 30px;
+}
+#searchbox button:hover{
+
+    background: rgba(176, 141, 26, 0.899);
+    transition-duration: 0.5s;
+
+}
+#mainbox .listContainer{
+
+    display: flex;
+}
+#mainbox .listContainer li{
+
+    margin-bottom: 13px;
+    list-style: none;
+}
+#mainbox .listContainer .li .icon{
+
+    align-self: flex-end;
+    margin-right: 10px;
+    display:inline-block;
+    height:17px;
+    width: 17px;
+    background-image: url("circle.png");
+    background-size:cover;
+    margin-bottom: 3px;
+}
+#mainbox .listContainer .li .start .para{
+    max-width:250px;
+    text-align: start;
+}
+#mainbox .listContainer ul {
+
+    display: flex;
+    justify-content:flex-start ;
+    flex-direction: column;
+    align-items: start;
+    width: 500px;
+
+}
+#mainbox ul .li {
+
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    height:2.5em;
+    width: 20em;
+}
+
+#mainbox ul .li .start{
+    display: flex;
+}
+
+#mainbox ul .li .delete{
+
+    justify-self: flex-end;
+    display:inline-block;
+    align-self: center;
+    height:15px;
+    width: 15px;
+    background-image: url("cross.png");
+    background-size: cover;
+}
+#mainbox .listContainer .li  .check{
+
+    background-image: url("checked.png");
+}
+.checked{
+
+    text-decoration: line-through black;
+    color: rgba(0, 0, 0, 0.255);
+
+}
+.heading{
+
+    display: flex;
+    font-family: 'Trocchi', serif ;
+    align-items:center;
+    color: rgb(156, 101, 0);
+}
+.logo{
+
+    align-self: center;
+    height: 57px;
+    width: 57px;
+    background-image: url("Logo.png");
+    background-size: contain;
+    display: flex;
+    margin-left: 20px;
+
+}
