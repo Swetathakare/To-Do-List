@@ -1,2 +1,13 @@
 # To-Do-List
-To Do List using HTML CSS and  JavaScript.
+
+Technology:- HTML,CSS and JavaScript.
+
+Link :-https://65894d16caaaa7c9f9ca8fb7--iridescent-sundae-500994.netlify.app/
+
+---------
+Preview :- 
+---------
+![Screenshot (579)](https://github.com/Swetathakare/To-Do-List/assets/143093330/e78ba30a-ef46-4ee9-9a2f-e6f0b2f11a40)
+---------
+Vedio :- 
+---------
